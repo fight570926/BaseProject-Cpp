@@ -19,3 +19,10 @@ int main() {
     testGetTriangleType();
     return 0;
 }
+
+int getrock(){
+    assert(getrock(3,4) == 7);
+    assert(getrock(1,6) == 7);
+    assert(getrock(2,5) == 7);
+    return 0;
+}

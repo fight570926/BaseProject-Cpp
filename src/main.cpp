@@ -36,3 +36,10 @@ int getTriangleType(int a, int b, int c) {
     }
     return -3;
 }
+
+int getrock(int a ,int b){
+    return a+b;
+}
+
+
+
